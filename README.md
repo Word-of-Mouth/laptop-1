@@ -33,9 +33,9 @@ In your Terminal window, copy and paste each of these three commands one at a
 time, then press `return` after each one. The first two commands download the
 files the script needs to run, and the third command executes the script.
 
-```sh
-curl --remote-name https://raw.githubusercontent.com//Word-of-Mouth/laptop-1/blob/master/mac
-curl --remote-name https://raw.githubusercontent.com//Word-of-Mouth/laptop-1/blob/master/Brewfile
+```
+curl --remote-name https://rawgit.com/Word-of-Mouth/laptop-1/master/mac
+curl --remote-name https://rawgit.com/Word-of-Mouth/laptop-1/master/Brewfile
 bash mac 2>&1 | tee ~/laptop.log
 ```
 The [script](https://github.com/18F/laptop/blob/master/mac) itself is
