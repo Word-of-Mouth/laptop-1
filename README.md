@@ -87,6 +87,7 @@ What it sets up
 * [Virtualenv] for creating isolated Python environments (via [pyenv] if it is installed)
 * [Virtualenvwrapper] for extending Virtualenv (via [pyenv] if it is installed)
 * [Zsh] as your shell
+* [Docker for Mac] for managing containers on your Mac.
 
 [Bundler]: http://bundler.io/
 [CloudApp]: http://getcloudapp.com/
@@ -114,7 +115,8 @@ What it sets up
 [The Silver Searcher]: https://github.com/ggreer/the_silver_searcher
 [Virtualenv]: https://virtualenv.pypa.io/en/latest/
 [Virtualenvwrapper]: http://virtualenvwrapper.readthedocs.org/en/latest/#
-[Zsh]: http://www.zsh.org/
+[Zsh]: http://www.zsh.org
+[Docker for Mac]: https://www.docker.com/products/docker
 
 It should take less than 15 minutes to install (depends on your machine and
 internet connection).
