@@ -34,11 +34,11 @@ time, then press `return` after each one. The first two commands download the
 files the script needs to run, and the third command executes the script.
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/18F/laptop/master/mac
-curl --remote-name https://raw.githubusercontent.com/18F/laptop/master/Brewfile
+curl --remote-name https://raw.githubusercontent.com/Word-of-Mouth/laptop-1/tree/master
+curl --remote-name https://raw.githubusercontent.com/Word-of-Mouth/laptop-1/tree/master/Brewfile
 bash mac 2>&1 | tee ~/laptop.log
 ```
-The [script](https://github.com/18F/laptop/blob/master/mac) itself is
+The [script](https://github.com/Word-of-Mouth/laptop-1/blob/master/mac) itself is
 available in this repo for you to review if you want to see what it does
 and how it works.
 
@@ -230,7 +230,7 @@ The 18F laptop script is based on and inspired by
 
 thoughtbot's original work remains covered under an [MIT License](https://github.com/thoughtbot/laptop/blob/c997c4fb5a986b22d6c53214d8f219600a4561ee/LICENSE).
 
-18F's work on this project is in the worldwide [public domain](LICENSE.md), as are contributions to our project. As stated in [CONTRIBUTING](CONTRIBUTING.md):
+18F's + WOM's work on this project is in the worldwide [public domain](LICENSE.md), as are contributions to our project. As stated in [CONTRIBUTING](CONTRIBUTING.md):
 
 > This project is in the public domain within the United States, and copyright and related rights in the work worldwide are waived through the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 >
